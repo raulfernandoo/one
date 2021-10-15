@@ -1,0 +1,167 @@
+body{
+margin: 0 29%;
+padding: 0;
+background-color: #f9f4ed;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-right:40px ;
+    margin-left:40px ;
+
+}
+
+.namepg {
+    color: black;
+    text-decoration: none;
+    font-family:cursive;
+    font-weight: bold;
+    color: #444;
+    font-size: 30px;
+    border-radius: 6px;
+    border: 10px solid #444;
+    padding: 9px 20px;
+}
+
+
+.menuPg{
+    transition-property: all;
+}
+.menuPg:hover {
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    background: white;
+    transition-duration:0.2s ;
+    
+
+}
+
+.imgmenu {
+    width : 50px; 
+    height: 40px;
+}
+
+.oneTImg {
+    width: 370px;
+
+}
+
+
+
+#oneimg1{
+    width: 100%;
+    height: 50%;
+    max-width: 320px;
+    display: block;
+    background-size: 100%;
+    position: absolute;
+    top: 146px;
+    z-index: 10;
+    background-image:  url("./img/City-one.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    left:31.5%;
+
+
+}
+
+#oneimg2{
+    width: 100%;
+    height: 50%;
+    max-width: 320px;
+    display: block;
+    background-size: 100%;
+    position: absolute;
+    top: 146px;
+    z-index: 8;
+    background-image: url("./img/campo-one.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    left:53%;
+
+}
+.connect {
+    text-align:center ;
+}
+
+#oneimg3{
+    width: 100%;
+    height: 50%;
+    max-width: 380px;
+    display: block;
+    background-size: 100%;
+    position: absolute;
+    top: 113px;
+    z-index: 9;
+    background-image:  url("./img/picture-one.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    left:42%;
+}
+
+.body-description { 
+    margin: 0 30px;
+}
+.backroung-title-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    height: 80px;
+    background: rgb(204, 102, 102);
+    margin-top: 377px ;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.description-one {
+    font-family: cursive;
+    font-size: 80px ; 
+    color: #444;
+}
+.description {
+    text-align-last: center;
+}
+.descripcion p{
+
+    font-size: 30px;
+    font-family: 'Bitter', serif;
+    color: #444;
+
+
+}
+.dispaley-b{
+    display: inline-block;
+}
+.red-social1 {
+    font-size: 20px;
+    padding: 15px 30px;
+    background: #444;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: monospace;
+    color: white;
+
+}
+.red-social2 {
+    font-size: 20px;
+    padding: 15px 22px;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: monospace;
+    color: #444;
+}
+.red-social1:hover {
+    color:rgb(204, 102, 102); ;
+    background: white;
+}
+
+.red-social2:hover {
+    color:rgb(204, 102, 102); ;
+    background: white;
+}
